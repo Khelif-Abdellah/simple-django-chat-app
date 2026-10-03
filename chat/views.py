@@ -67,3 +67,5 @@ def getMessages(request, room):
     return JsonResponse({
         "messages": list(messages.values())
     })
+
+
